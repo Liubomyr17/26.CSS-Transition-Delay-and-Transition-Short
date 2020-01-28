@@ -1,0 +1,16 @@
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    transition: background-color 3s 2s, border-radius 2s 1s;
+    
+    /*
+    transition-duration: background-color, border-radius;
+    transition-duration: 7s, 10s;
+    transition-delay: 2s;
+    */
+}
+.box:hover {
+    background-color: red;
+    border-radius: 50%
+}
